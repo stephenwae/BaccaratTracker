@@ -1,13 +1,19 @@
+/* Import the 'Inter' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/*
+These directives inject Tailwind's base styles, component classes, and utility classes into your CSS.
+It will use the configuration from your `tailwind.config.js` file.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global base styles */
 body {
+  @apply bg-brand-bg text-brand-text-primary;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+/*
+This file can be used for more complex or custom CSS that is difficult 
+to achieve with Tailwind utility classes alone.
+
+For this enhanced design, most styles are handled by Tailwind and the 
+`tailwind.config.js` file. However, you could add things like custom 
+scrollbar styles or complex background gradients here.
+*/
+
+/* Example: Custom scrollbar for the Bead Road */
+.bead-road-scroll::-webkit-scrollbar {
+  height: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bead-road-scroll::-webkit-scrollbar-track {
+  background: #1A2233; /* brand-surface */
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bead-road-scroll::-webkit-scrollbar-thumb {
+  background-color: #2A344A; /* brand-border */
+  border-radius: 10px;
+  border: 2px solid #1A2233; /* brand-surface */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bead-road-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #475569;
 }
