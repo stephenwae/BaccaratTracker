@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BaccaratTracker/static/css/main.d19b67a5.css",
+    "main.js": "/BaccaratTracker/static/js/main.5774bb0a.js",
+    "index.html": "/BaccaratTracker/index.html",
+    "main.d19b67a5.css.map": "/BaccaratTracker/static/css/main.d19b67a5.css.map",
+    "main.5774bb0a.js.map": "/BaccaratTracker/static/js/main.5774bb0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d19b67a5.css",
+    "static/js/main.5774bb0a.js"
+  ]
+}
